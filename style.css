@@ -1,0 +1,106 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	box-sizing: border-box;
+	
+}
+
+body {
+	background-image: url(https://www.ps4wallpapers.com/wp-content/uploads/2023/09/2023-09-26_65136b304d6bc_sonic-frontiers-game-art-4k-wallpaper-uhdpaper.com-6420h.jpg);
+	background-position: center;
+	background-size: 3000px;
+	display: flex;
+	height: 100vh;
+}
+
+.form_container{
+	margin-top: 3em;
+	display: grid;
+	gap: 1.5em;
+}
+
+.form{
+	background-color: rgba(107, 54, 194, 0.068);
+	backdrop-filter: blur(2px);
+	margin: auto;
+	width: 90%;
+	max-width: 400px;
+	padding: 4.0em 3em;
+	box-shadow: 0 5px 15px -3px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.form_title{
+	display: grid;
+	gap: 2.5em;
+	color: #fff;
+}
+
+.form_group{
+	position: relative;
+	--color: #575757;
+}
+
+.form_input{
+	width: 100%;
+	background: none;
+	color: #fff;
+	font-size: 1rem;
+	padding: .6em .3em;
+	border-color: rgba(108, 54, 194, 0.356);
+	backdrop-filter: blur(2px);
+	outline: none;
+	border-radius: 10px;
+}
+
+
+
+
+.form_span{
+	cursor: pointer;
+	top: 0;
+	left: 5px;
+	color: #fff;
+
+}
+
+.form_submit{
+	background-color: rgba(108, 54, 194, 0.356);
+	color: #fff;
+	font-weight: 300;
+	font-size: 1rem;
+	padding: .8rem 0;
+	border: none;
+	border-radius: .5rem;
+	cursor: pointer;
+}
+
+.form_submit:hover{
+	
+	transform: scale(.7);
+	transition: transform .5s;
+
+}
+
+p {
+	color: #fff;
+}
+
+.form_checkbox{
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 2px solid rebeccapurple;
+	border-radius: 5px;
+	background-color: rgba(180, 39, 161, 0.315);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.form_checkbox:checked {
+	background-color: rgb(106, 43, 223);
+	color: rgb(75, 156, 13);
+	background-position: 0 0;
+}
